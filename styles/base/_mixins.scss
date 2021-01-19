@@ -1,0 +1,24 @@
+@mixin box ($w, $h, $c){
+    width: $w;
+    height: $h;
+    background-color: $c;
+}
+@mixin font ($ff, $fs, $fw){
+    font-family: $ff;
+    font-size: $fs;
+    font-weight: $fw;
+}
+@mixin display ($d, $jc, $ai){
+    display: $d;
+    justify-content: $jc;
+    align-items: $ai;
+}
+@mixin padding ($pt, $pr, $pb, $pl){
+    padding-top: $pt;
+    padding-right: $pr;
+    padding-bottom: $pb;
+    padding-left: $pl;
+}
+
+
+
